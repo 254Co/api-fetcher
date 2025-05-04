@@ -1,0 +1,48 @@
+# ---------------------------------------------
+# api_fetcher/requirements.txt
+# ---------------------------------------------
+# Core dependencies
+pandas>=1.5.0
+httpx>=0.24.0
+xmltodict>=0.13.0
+tenacity>=8.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+cachetools>=5.0.0
+
+# Testing dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Optional dependencies
+ray>=2.0.0; platform_system != "Windows"
+
+# UI and progress dependencies
+tqdm>=4.65.0  # For progress bars
+rich>=13.0.0  # For enhanced console output
+
+# Autonomous optimization dependencies
+psutil>=5.9.0  # For system metrics
+aiohttp>=3.8.0  # For network speed testing
+numpy>=1.24.0  # For statistical analysis
+scikit-learn>=1.0.0  # For pattern recognition
+
+# Additional dependencies
+aiofiles>=23.0.0
+python-dateutil>=2.8.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
+pyarrow>=12.0.0
+fastparquet>=2023.0.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+mysqlclient>=2.0.0
+pymongo>=4.0.0
+redis>=4.0.0
+elasticsearch>=8.0.0
+kafka-python>=2.0.0
+google-cloud-storage>=2.0.0
+boto3>=1.26.0
+azure-storage-blob>=12.0.0
