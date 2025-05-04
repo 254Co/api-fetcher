@@ -36,9 +36,9 @@ dependencies = [
 ray = ["ray>=2.0.0"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/api-fetcher"
-Repository = "https://github.com/yourusername/api-fetcher.git"
-Issues = "https://github.com/yourusername/api-fetcher/issues"
+Homepage = "https://github.com/254Co/api-fetcher"
+Repository = "https://github.com/254Co/api-fetcher.git"
+Issues = "https://github.com/254Co/api-fetcher/issues"
 
 [tool.setuptools]
 packages = ["api_fetcher"]
